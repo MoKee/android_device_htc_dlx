@@ -1,12 +1,10 @@
 [
   {
-    "repository": "MoKee/android_vendor_htc_dlx",
-    "target_path": "vendor/htc/dlx",
-    "branch": "jb-mr1_mkt"
+    "repository": "android_vendor_htc_dlx",
+    "target_path": "vendor/htc/dlx"
   },
   {
-    "repository": "MoKee/android_kernel_htc_dlx",
-    "target_path": "kernel/htc/dlx",
-    "branch": "jb-mr1_mkt"
+    "repository": "android_kernel_htc_dlx",
+    "target_path": "kernel/htc/dlx"
   }
 ]
