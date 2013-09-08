@@ -4,7 +4,11 @@
     "target_path": "vendor/htc/dlx"
   },
   {
-    "repository": "android_kernel_htc_dlx",
-    "target_path": "kernel/htc/dlx"
+    "repository": "android_kernel_htc_m7",
+    "target_path": "kernel/htc/m7"
+  },
+  {
+    "repository": "android_device_htc_msm8960-common",
+    "target_path": "device/htc/msm8960-common"
   }
 ]
