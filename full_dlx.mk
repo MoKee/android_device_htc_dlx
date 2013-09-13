@@ -89,6 +89,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/htc/dlx/dsp/snd_soc_msm/snd_soc_msm_2x_Fusion3:/system/etc/snd_soc_msm/snd_soc_msm_2x_Fusion3 
 
+# Media
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/media_profiles.xml:system/etc/media_profiles.xml
+
 # Keylayouts and Keychars
 PRODUCT_COPY_FILES += \
     device/htc/dlx/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
@@ -116,6 +120,10 @@ PRODUCT_COPY_FILES += \
     device/htc/dlx/idc/qwerty.idc:system/usr/idc/qwerty.idc \
     device/htc/dlx/idc/synaptics-rmi-touchscreen.idc:system/usr/idc/synaptics-rmi-touchscreen.idc
 
+# Audio
+PRODUCT_PACKAGES += \
+	libaudioamp
+
 # Camera
 PRODUCT_PACKAGES += \
 	camera.msm8960
@@ -127,6 +135,10 @@ PRODUCT_PACKAGES += \
         libloc_api_v02 \
         libgps.utils \
         gps.msm8960
+
+# Keystore
+PRODUCT_PACKAGES += \
+	keystore.msm8960
 
 # NFC
 PRODUCT_PACKAGES += \
