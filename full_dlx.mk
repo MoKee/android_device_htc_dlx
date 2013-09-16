@@ -136,10 +136,6 @@ PRODUCT_PACKAGES += \
         libgps.utils \
         gps.msm8960
 
-# Keystore
-PRODUCT_PACKAGES += \
-	keystore.msm8960
-
 # NFC
 PRODUCT_PACKAGES += \
     nfc.msm8960 \
