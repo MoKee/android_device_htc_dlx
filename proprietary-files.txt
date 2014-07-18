@@ -143,6 +143,11 @@ etc/firmware/tzapps.b00
 etc/firmware/tzapps.b01
 etc/firmware/tzapps.b02
 etc/firmware/tzapps.b03
+vendor/firmware/keymaster.b00
+vendor/firmware/keymaster.b01
+vendor/firmware/keymaster.b02
+vendor/firmware/keymaster.b03
+vendor/firmware/keymaster.mdt
 
 etc/firmware/hcheck.b01
 etc/firmware/hcheck.b03
@@ -151,12 +156,14 @@ etc/firmware/hcheck.b00
 etc/firmware/hcheck.b02
 
 # WiFi
-etc/firmware/BCM4334B0_002.001.013.0942.0949.hcd
+etc/firmware/BCM4334B0_002.001.013.1352.1458.hcd
 etc/firmware/fw_bcm4334.bin
 etc/firmware/fw_bcm4334_apsta.bin
 etc/firmware/fw_bcm4334_p2p.bin
 
 # DRM
+bin/qseecomd
+bin/hcheck
 lib/libQSEEComAPI.so
 vendor/lib/drm/libdrmwvmplugin.so
 vendor/lib/libdrmfs.so
